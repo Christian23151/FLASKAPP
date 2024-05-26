@@ -1,0 +1,51 @@
+/* General Styles */
+body.login-body, body.register-body {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-box, .register-box {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form-control {
+    background-color: white;
+    color: black;
+}
+
+body.index-body {
+    background-color: yellow;
+}
+
+.header-text {
+    background-color: gray;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn-add-student, .btn-logout {
+    font-size: 1.2em;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-add-student:hover, .btn-logout:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+.table-hover tbody tr:hover {
+    background-color: lightgray;
+}
